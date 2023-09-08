@@ -24,7 +24,6 @@ body{
 form{
   background-color: white;
   padding-top: 50px;
-	padding-left: 5vh;
   padding-bottom: 25px;
 	box-shadow: 0 4px 4px 0 lightgrey;
 	margin-bottom: 50vh;
@@ -35,7 +34,7 @@ form{
   flex-direction: row;
 	align-items: center;
 	justify-content: center;
-  padding-left: 50px;
+  padding-left: 25px;
   padding-right: 50px;
 }
 
@@ -53,9 +52,6 @@ img{
   margin-bottom: 15px;
 }
 
-
-
-
 .formRight{
 	padding-left: 25px;
 }
@@ -71,6 +67,8 @@ img{
 	
 }
 input:focus{
+	outline: none;
+	border-color: rbga(235,215,130,1);
 	box-shadow: 0 0 8px 3px rgba(235,215,130, 1);
 }
 
@@ -92,13 +90,13 @@ input{
 button{
 	background-color: rgb(235,215,130);
 	border-radius: 5px;
-	margin: 5px;
 	min-height: 30px;
 }
 
 .button{
 	display: flex;
 	justify-content: center;
+	align-items: center;
 	padding-top: 10px;
 }
 
