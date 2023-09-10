@@ -51,7 +51,7 @@ form{
   background-color: white;
   padding-top: 50px;
   padding-bottom: 25px;
-  box-shadow: 0 4px 4px 0 lightgrey;
+  box-shadow: 0 4px 4px 0 rgba(211, 211, 211, 0.808);
 }
 
 .formContainer{
@@ -106,4 +106,18 @@ button{
 	justify-content: center;
 	align-items: center;
 	padding-top: 10px;
+}
+
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a:link{
+  color: #f9e175;
+}
+
+a:visited{
+  color: red;
 }
